@@ -1,0 +1,9 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as Ticker } from "./Ticker";
+export { default as WorkSection } from "./WorkSection";
+export { default as AboutSection } from "./AboutSection";
+export { default as SkillsSection } from "./SkillsSection";
+export { default as ContactSection } from "./ContactSection";
+export { default as Footer } from "./Footer";
+export { default as ProjectVisual } from "./ProjectVisual";
