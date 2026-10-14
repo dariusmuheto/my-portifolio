@@ -1,4 +1,4 @@
-import { ArrowDownRight, ArrowUpRight, Check, Code2 } from "lucide-react";
+import { ArrowDownRight, Check, Code2 } from "lucide-react";
 import { Button } from "@mui/material";
 
 export default function Hero() {

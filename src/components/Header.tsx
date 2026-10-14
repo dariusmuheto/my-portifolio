@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowUpRight, Menu, X } from "lucide-react";
+import {  Menu, X } from "lucide-react";
 import { Button, IconButton } from "@mui/material";
 import ThemeToggle from "../ThemeToggle";
 

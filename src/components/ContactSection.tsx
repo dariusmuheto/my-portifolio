@@ -9,7 +9,7 @@ export default function ContactSection() {
   const copyEmail = async () => {
     try {
       // Try to open Gmail compose section first
-      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=Hello&body=Hi Darius,`;
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=About your portofolio&body=Hi Darius,`;
       const gmailWindow = window.open(gmailUrl, '_blank');
       
       if (!gmailWindow || gmailWindow.closed || typeof gmailWindow.closed === 'boolean') {
